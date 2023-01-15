@@ -1,11 +1,11 @@
 {
   "Post": {
     "_": { "items": 20 },
-    "title": { "string": {} },
+    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
     "comments": { "hasMany": "Comment" }
   },
   "Comment": {
-    "body": { "string": {} },
+    "body": { "loremSentences": { "minLength": 100, "maxLength": 200 } },
     "post": { "belongsTo": "Post" }
   }
 }
