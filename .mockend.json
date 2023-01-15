@@ -1,7 +1,7 @@
 {
   "Student": {
-    "Firstname": ["James", "Paula", "Charlie", "Carol", "Daniel", "Victoria"],
-    "Age": [21, 25, 26, 20, 19, 27],
-    "ClassStatus": ["Senior", "Graduate Student", "Graduate Student", "Junior", "Sophmore", "Senior"]
+    "Firstname": { "string": ["James", "Paula", "Charlie", "Carol", "Daniel", "Victoria"] },
+    "Age": { "int": [21, 25, 26, 20, 19, 27] },
+    "ClassStatus": { "string": ["Senior", "Graduate Student", "Graduate Student", "Junior", "Sophmore", "Senior"] }
   }
 }
